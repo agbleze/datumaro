@@ -225,19 +225,19 @@ class FractalImageGenerator(DatasetGenerator):
 
         for url, filename, size, sha512_checksum in [
             (
-                f"https://raw.githubusercontent.com/richzhang/colorization/a1642d6ac6fc80fe08885edba34c166da09465f6/colorization/models/{prototxt_file_name}",
+                f"https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/{prototxt_file_name}",
                 prototxt_file_name,
                 9945,
                 "e3dd9188771202bd296623510bcf527b41c130fc9bae584e61dcdf66917b8c4d147b7b838fec0685568f7f287235c34e8b8e9c0482b555774795be89f0442820",
             ),
             (
-                f"http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/{caffemodel_file_name}",
+                f"https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/{caffemodel_file_name}",
                 caffemodel_file_name,
                 128946764,
                 "3d773dd83cfcf8e846e3a9722a4d302a3b7a0f95a0a7ae1a3d3ef5fe62eecd617f4f30eefb1d8d6123be4a8f29f7c6e64f07b36193f45710b549f3e4796570f1",
             ),
             (
-                f"https://raw.githubusercontent.com/richzhang/colorization/a1642d6ac6fc80fe08885edba34c166da09465f6/colorization/resources/{hull_file_name}",
+                f"https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/{hull_file_name}",
                 hull_file_name,
                 5088,
                 "bf59a8a4e74b18948e4aeaa430f71eb8603bd9dbbce207ea086dd0fb976a34672beaeea6f1233a21687da710e0f8d36e86133a8532265dfda52994a7d6f0dbf5",
